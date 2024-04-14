@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'fast';
+    src: url(/font.ttf) format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-container img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+
+.text-overlay-furious {
+    font-family:'fast', Arial, sans-serif;
+    -webkit-text-stroke: 1px #fff;
+    font-style: italic;
+    white-space: nowrap;
+    font-size: 53px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    color: black;
+   
+    border-radius: 5px; 
+}
+.footer {
+    font-family: 'fast', Arial, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    bottom: -50px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    border-radius: 15px; 
+    width: 100%;
+}
+
+
